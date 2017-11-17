@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: darkblue;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+}
+
+.slider__item {
+  height: 100vh;
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted #000;
+  flex-basis: 25%;
+  background-color: grey;
+  transition: all 0.7s;
+  text-transform: uppercase;
+}
+
+.slider__item:hover {
+  flex-basis: 75%;
+}
+
+.slider__item-1 {
+  background: url("../img/spring.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.slider__item-2 {
+  background: url("../img/summer.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.slider__item-3 {
+  background: url("../img/autumn.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.slider__item-4 {
+  background: url("../img/winter.jpg") no-repeat center center;
+  background-size: cover;
+}
+
