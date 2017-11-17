@@ -1,0 +1,7 @@
+#Rar-Zip arhives
+*.rar
+*.zip
+#PSD-maket & PPTX(presentation)
+*.psd
+*.pptx
+/.idea
