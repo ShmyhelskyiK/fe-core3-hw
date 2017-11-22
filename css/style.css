@@ -73,6 +73,10 @@ body {
   background-size: cover;
 }
 
+.slider__list li {
+  padding: 10px;
+}
+
 @media (max-width: 640px) {
   .header {
     width: 100%;
