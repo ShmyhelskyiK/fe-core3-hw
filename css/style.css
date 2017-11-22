@@ -80,9 +80,9 @@ body {
 @media (max-width: 640px) {
   .header {
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 0 0 15px #4daabe;
-    padding: 12px;
+    padding: 8px;
     display: flex;
     justify-content: space-around;
     position: relative;
