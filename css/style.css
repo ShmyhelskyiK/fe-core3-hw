@@ -7,6 +7,10 @@ body {
   font-family: 'Indie Flower', cursive, sans-serif;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 .header {
   width: 100%;
   background: darkblue;
