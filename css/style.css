@@ -103,6 +103,10 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
   }
+
+  .slider__item:hover {
+     flex-basis: 80%;
+   }
 }
 
 .button-top {
