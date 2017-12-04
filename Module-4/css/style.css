@@ -1,0 +1,189 @@
+body {
+  background: url("../img/page-bg.jpg") no-repeat center;
+  background-size: cover;
+  font-family: arial, sans-serif;
+  color: #263555;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+p {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4e5050;
+}
+
+a {
+  color: #263555;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #38afe5;
+}
+
+.wrapper {
+  width: 1024px;
+  background-color: #fff;
+  margin: 230px auto;
+}
+
+.first-section,
+.second-section {
+  width: 904px;
+  margin: 0 auto;
+  padding: 25px 0 50px;
+}
+
+.first-section{
+  border-bottom: 1px solid #dedbdb;
+  padding-top: 90px;
+}
+
+.first-section h2 {
+  margin-bottom: 50px;
+}
+
+/*profile section*/
+
+.profile {
+  display: inline-block;
+  width: 653px;
+  padding-right: 30px;
+}
+
+.profile img {
+  float: left;
+  margin-right: 20px;
+}
+
+/*principles section*/
+
+.principles {
+  display: inline-block;
+  width: 216px;
+  vertical-align: top;
+}
+
+.principles ol {
+  counter-reset: count1;
+}
+
+.principles li {
+  counter-increment: count1;
+  position: relative;
+}
+
+.principles li:before {
+  content: counter(count1);
+  position: absolute;
+  left: -35px;
+  background-color: #38afe5;
+  border: 1px solid #4497bc;
+  border-radius: 42%;
+
+  display: inline-block;
+  width: 26px;
+  height: 28px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+
+
+/*offer section*/
+
+.offer {
+  display: inline-block;
+  width: 653px;
+  padding-right: 30px;
+}
+
+.offer__content {
+  padding-top: 30px;
+}
+
+.offer ol{
+  margin: 0;
+  padding: 0;
+}
+
+.offer li {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.offer li:before {
+  content: '\2192';
+  color: #38afe5;
+  margin-right: 10px;
+}
+
+/*testimonial section*/
+
+.testimonial {
+  display: inline-block;
+  width: 216px;
+  vertical-align: top;
+}
+
+.quote {
+  background-color: #fcfafa;
+  border: 1px solid #dfdcdc;
+  border-radius: 2px;
+  padding:  22px;
+}
+
+.quote:before {
+  content: open-quote;
+}
+
+.quote:after {
+  content: close-quote;
+}
+
+.triangle-bottom {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 28px 16px 0 16px;
+  border-color:  #dfdcdc transparent transparent transparent;
+  position: relative;
+  left: 92px;
+}
+
+.triangle-bottom:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 27px 15px 0 15px;
+  border-color: #fcfafa transparent transparent transparent;
+  position: absolute;
+  bottom: 2px;
+  left: -15px;
+}
+
+.director {
+  text-align: center;
+  padding: 30px 0;
+}
