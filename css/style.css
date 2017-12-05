@@ -77,6 +77,15 @@ h2 {
   background-size: cover;
 }
 
+.archive {
+  background: url("../img/archive.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.archive a {
+  color: aliceblue;
+}
+
 .slider__list li {
   padding: 10px;
 }
