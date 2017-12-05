@@ -102,7 +102,7 @@ h2 {
   }
 
    .slider {
-    height: 100vh;
+    /*height: 100vh;*/
     flex-direction: column;
   }
 
