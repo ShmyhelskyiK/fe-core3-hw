@@ -38,14 +38,16 @@ a:hover {
 }
 
 .wrapper {
+  box-sizing: border-box;
   width: 1024px;
   background-color: #fff;
+  padding: 0 60px;
   margin: 230px auto;
 }
 
 .first-section,
 .second-section {
-  width: 904px;
+  /*width: 904px;*/
   margin: 0 auto;
   padding: 25px 0 50px;
 }
