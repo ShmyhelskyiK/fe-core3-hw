@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #fcfafa;
+  background: #2b4abb;
   font-family: 'Indie Flower', cursive, sans-serif;
 }
 
@@ -13,8 +13,8 @@ h2 {
 
 .header {
   width: 100%;
-  background: darkblue;
-  color: lightgrey;
+  background: #2b4abb;
+  color: #fff;
   font-size: 40px;
   text-shadow: 0 0 15px #4daabe;
   padding: 12px 0;
@@ -90,32 +90,32 @@ h2 {
   padding: 10px;
 }
 
-@media (max-width: 640px) {
-  .header {
-    width: 100%;
-    font-size: 30px;
-    text-shadow: 0 0 15px #4daabe;
-    padding: 8px;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-  }
+.footer {
+  width: 100%;
+  /*height: 80px;*/
+  /*background: lightblue;*/
+  /*color: lightgrey;*/
+  /*font-size: 40px;*/
+  /*text-shadow: 0 0 15px #4daabe;*/
+  padding: 12px 0;
+  /*border: 1px dashed #000;*/
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
 
-   .slider {
-    /*height: 100vh;*/
-    flex-direction: column;
-  }
+.footer img {
+  width: 40px;
+  height: 40px;
+}
 
-  .slider__item {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .slider__item:hover {
-     flex-basis: 80%;
-   }
+.twitter,
+.fb,
+.google,
+.git {
+  margin: 5px;
 }
 
 .button-top {
@@ -148,6 +148,34 @@ h2 {
   -ms-transition: all 1350ms;
   -o-transition: all 1350ms;
   transition: all 1350ms;
+}
+
+@media (max-width: 640px) {
+  .header {
+    width: 100%;
+    font-size: 30px;
+    text-shadow: 0 0 15px #4daabe;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+
+   .slider {
+    /*height: 100vh;*/
+    flex-direction: column;
+  }
+
+  .slider__item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .slider__item:hover {
+     flex-basis: 80%;
+   }
 }
 
 
