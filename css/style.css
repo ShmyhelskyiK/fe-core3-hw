@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #2b4abb;
+  /*background: #2b4abb;*/
   font-family: 'Indie Flower', cursive, sans-serif;
 }
 
@@ -15,7 +15,6 @@ h2 {
   width: 100%;
   background: #2c587a;
   background: radial-gradient(#eef5c4, #2c587a);
-  color: #fff;
   font-size: 40px;
   text-shadow: 0 0 15px #4daabe;
   padding: 12px 0;
