@@ -13,7 +13,8 @@ h2 {
 
 .header {
   width: 100%;
-  background: #2b4abb;
+  background: #2c587a;
+  background: radial-gradient(#eef5c4, #2c587a);
   color: #fff;
   font-size: 40px;
   text-shadow: 0 0 15px #4daabe;
@@ -22,6 +23,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   position: fixed;
+  z-index: 5;
 }
 
 .header a {
@@ -79,7 +81,7 @@ h2 {
 }
 
 .archive {
-  background: url("../img/archive.jpg") no-repeat center center;
+  background: url("../img/archive2.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -109,43 +111,34 @@ h2 {
   margin: 5px;
 }
 
-.button-top {
-  position: fixed;
-  background-color: darkblue;
-  width: 30px;
-  height: 30px;
-  border: 2px solid #000;
-  border-radius: 50%;
-  bottom: 100px;
-  top: 90%;
-  left: 90%;
-  text-decoration: none;
+.scrollup {
+  position: fixed; /* фиксированная позиция */
+  color: #fff; /* цвет текста */
+  background-color: #286090; /* цвет заднего фона */
+  right: 0; /* расстояние от правого края */
+  bottom: 20px; /* расстояние от нижнего края */
+  padding: 10px; /* отступы до содержимого блока */
+  font-size: 20px; /* размер шрифта (иконки) */
+  border-top-left-radius: 10px; /* скругление верхнего левого угла */
+  border-bottom-left-radius: 10px; /* скругление верхнего правого угла */
+  cursor: pointer; /* форма курсора */
+  display: none; /* не отображать элемент */
+  text-align: center; /*выравнивание содержимого элемента по центру */
 }
 
-.button-top:before {
-  content: '\21ba';
-  position: relative;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  left: 5px;
-  top: 6px;
+.scrollup:hover {
+  background-color: #000 /* цвет заднего фона при наведении */
 }
 
-.button-top:hover {
-  background: #2a2a2a;
-  -webkit-transition: all 1350ms;
-  -moz-transition: all 1350ms;
-  -ms-transition: all 1350ms;
-  -o-transition: all 1350ms;
-  transition: all 1350ms;
+.to_archive {
+  cursor: pointer; /* форма курсора */
 }
 
 @media (max-width: 640px) {
   .header {
     width: 100%;
     font-size: 30px;
-    text-shadow: 0 0 15px #4daabe;
+    text-shadow: 0 0 15px #7ab7cc;
     padding: 8px;
     display: flex;
     justify-content: space-around;
@@ -159,6 +152,7 @@ h2 {
 
   .slider__item {
     width: 100%;
+    flex-basis: 25%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

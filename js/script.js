@@ -1,6 +1,6 @@
 $(function() {
     // при нажатии на кнопку scrollup
-    $('.button').click(function() {
+    $('.scrollup').click(function() {
         // переместиться в верхнюю часть страницы
         $("html, body").animate({
             scrollTop:0
@@ -12,10 +12,18 @@ $(window).scroll(function() {
     // если пользователь прокрутил страницу более чем на 200px
     if ($(this).scrollTop()>200) {
         // то сделать кнопку scrollup видимой
-        $('.button').fadeIn();
+        $('.scrollup').fadeIn();
     }
     // иначе скрыть кнопку scrollup
     else {
-        $('.button').fadeOut();
+        $('.scrollup').fadeOut();
     }
 });
+
+$(function () {
+    $('.to_archive').click(function () {
+        $('html,body').animate({
+            scrollTop:10000
+        },1000);
+    })
+})
