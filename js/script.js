@@ -19,11 +19,3 @@ $(window).scroll(function() {
         $('.scrollup').fadeOut();
     }
 });
-
-$(function () {
-    $('.to_archive').click(function () {
-        $('html,body').animate({
-            scrollTop:10000
-        },1000);
-    })
-})
