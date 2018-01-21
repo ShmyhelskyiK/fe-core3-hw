@@ -255,16 +255,18 @@ img {
   height: 270px;
   width: 144px;
   color: #fff;
+  background: #193149;
 
   opacity: 0;
-  transition: all 1.5s linear 0s;
+  transition: all 0.5s linear 0s;
+  transform: translate3d(-100%, -50%, -30px) skew(30deg, -40deg);
 }
 
 .Destinations:hover .block {
   position: absolute;
-  background: #193149;
 
   opacity: .9;
+  transform: translate3D(0, 0, 0) skew(0, 0);
 }
 
 .block > h2 {
