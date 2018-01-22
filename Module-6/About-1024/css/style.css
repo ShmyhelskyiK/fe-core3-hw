@@ -338,22 +338,39 @@ h2 {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-image: url(../img/css_sprites.png);
+  background-image: url(../img/test_sprite.png);
 }
 
 .links .tw {
   background-position: -10px -8px;
 }
 
+.links .tw:hover {
+  background-position: -10px -55px;
+
+}
+
 .links .fb {
   background-position: -80px -8px;
+}
+
+.links .fb:hover {
+  background-position: -80px -55px;
 }
 
 .links .goo {
   background-position: -150px -8px;
 }
 
+.links .goo:hover {
+  background-position: -150px -55px;
+}
+
 .links .lin {
   background-position: -220px -8px;
+}
+
+.links .lin:hover {
+  background-position: -220px -55px;
 }
 
