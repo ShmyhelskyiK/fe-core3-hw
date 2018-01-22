@@ -242,6 +242,12 @@ h2 {
   left: 108px;
 }
 
+.quote:hover:after,
+.quote:hover:before {
+  border-color: #000 transparent transparent transparent;
+  transform: translate(0, 20px);
+}
+
 .quote p:before {
   content: '"';
 }
