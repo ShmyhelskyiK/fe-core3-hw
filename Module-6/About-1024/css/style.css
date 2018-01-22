@@ -240,11 +240,12 @@ h2 {
   position: absolute;
   top: 149px;
   left: 108px;
+  transition: all 1s;
 }
 
 .quote:hover:after,
 .quote:hover:before {
-  border-color: #000 transparent transparent transparent;
+  border-color: #dfdcdc transparent transparent transparent;
   transform: translate(0, 20px);
 }
 
