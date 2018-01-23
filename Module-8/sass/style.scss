@@ -1,0 +1,17 @@
+$main_color: #ee7;
+
+body {
+  background-color: #000;
+  font: 16px/24px,Arial,Helvetica, Tahoma, sans-serif;
+  color: #fff;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+h1 {
+  color: $main_color;
+}
+
