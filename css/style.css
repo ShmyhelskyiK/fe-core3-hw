@@ -144,7 +144,7 @@ h2 {
     position: relative;
   }
 
-   .slider {
+  .slider {
     /*height: 100vh;*/
     flex-direction: column;
   }
@@ -158,8 +158,6 @@ h2 {
   }
 
   .slider__item:hover {
-     flex-basis: 80%;
-   }
+    flex-basis: 80%;
+  }
 }
-
-
