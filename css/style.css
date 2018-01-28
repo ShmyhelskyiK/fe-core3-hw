@@ -59,6 +59,10 @@ h2 {
   flex-basis: 70%;
 }
 
+.slider__item a {
+  /*color: cornflowerblue;*/
+}
+
 .slider__item-1 {
   background: url("../img/spring.jpg") no-repeat center center;
   background-size: cover;
@@ -109,6 +113,16 @@ h2 {
 .sco,
 .git {
   margin: 5px;
+  transition: all 1s;
+}
+
+.twitter:hover,
+.fb:hover,
+.google:hover,
+.sco:hover,
+.git:hover {
+  transform: rotate(-30deg);
+  transform-origin: -1px -1px;
 }
 
 .scrollup {
