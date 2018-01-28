@@ -5,13 +5,14 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="HW#6 | FE-Core3!">
+  <meta name="description" content="HW#7 | FE-Core3!">
   <meta name="author" content="Kostiantyn Shmyhelskyi">
-  <title>HW#6 | FE-Core3!</title>
+  <title>HW#7 | FE-Core3!</title>
   <link rel="shortcut icon" href="../../img/my.ico">
   <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" >
-  <link rel="stylesheet" href="css/normalize_v7_0_0.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <!--<link rel="stylesheet" href="css/normalize_v7_0_0.css">-->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -53,21 +54,114 @@
     </ul>
   </nav>
 </header>
-<div class="main">
-  <h2>Our Gallery</h2>
-  <section class="gallery">
-    <div class="img-box"><img src="img/img1.jpg" alt=""></div>
-    <div class="img-box"><img src="img/img2.jpg" alt=""></div>
-    <div class="img-box"><img src="img/img3.jpg" alt=""></div>
-    <div class="img-box"><img src="img/img4.jpg" alt=""></div>
-    <div class="img-box"><img src="img/img5.jpg" alt=""></div>
-    <div class="img-box"><img src="img/img6.jpg" alt=""></div>
-    <div class="img-box"><img src="img/img7.jpg" alt=""></div>
-    <div class="img-box"><img src="img/img8.jpg" alt=""></div>
-    <div class="img-box"><img src="img/img9.jpg" alt=""></div>
+
+<section class="content">
+  <section class="specials-tours">
+    <h2>Tours Specials</h2>
+    <div class="tours">
+      <div class="tour1">
+        <img src="img/cardimage1.png" alt="cardimage1">
+        <div class="info">
+          <h3>Gellentesque imperdiet</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+          <p class="price">From $ 399</p>
+          <p>Suspendisse jew wligulawe</p>
+          <p class="price">From $ 299</p>
+          <input type="button" value="Details">
+        </div>
+      </div>
+      <div class="tour2">
+        <img src="img/cardimage2.png" alt="cardimage1">
+        <div class="info">
+          <h3>Gellentesque imperdiet</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+          <p class="price">From $ 399</p>
+          <p>Suspendisse jew wligulawe</p>
+          <p class="price">From $ 299</p>
+          <input type="button" value="Details">
+        </div>
+      </div>
+      <div class="tour3">
+        <img src="img/cardimage3.png" alt="cardimage1">
+        <div class="info">
+          <h3>Gellentesque imperdiet</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+          <p class="price">From $ 599</p>
+          <p>Suspendisse jew wligulawe</p>
+          <p class="price">From $ 499</p>
+          <input type="button" value="Details">
+        </div>
+      </div>
+      <div class="tour4">
+        <img src="img/cardimage4.png" alt="cardimage1">
+        <div class="info">
+          <h3>Gellentesque imperdiet</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+          <p class="price">From $ 399</p>
+          <p>Suspendisse jew wligulawe</p>
+          <p class="price">From $ 299</p>
+          <input type="button" value="Details">
+        </div>
+      </div>
+      <div class="tour5">
+        <img src="img/cardimage5.png" alt="cardimage1">
+        <div class="info">
+          <h3>Gellentesque imperdiet</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+          <p class="price">From $ 399</p>
+          <p>Suspendisse jew wligulawe</p>
+          <p class="price">From $ 299</p>
+          <input type="button" value="Details">
+        </div>
+      </div>
+      <div class="tour6">
+        <img src="img/cardimage6.png" alt="cardimage1">
+        <div class="info">
+          <h3>Gellentesque imperdiet</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+          <p class="price">From $ 399</p>
+          <p>Suspendisse jew wligulawe</p>
+          <p class="price">From $ 299</p>
+          <input type="button" value="Details">
+        </div>
+      </div>
+    </div>
   </section>
-  <a class="button-top" href="#" ></a>
-</div>
+  <aside class="aside">
+    <section class="browse">
+      <h2>Browse</h2>
+      <p>Browse by Tour Operator</p>
+      <select name = "Operator" title="Operator">
+        <option value = "1">Browse by Tour Operator</option>
+      </select>
+      <textarea name = "comments" placeholder="Browse by Tour Operator"></textarea>
+      <input type="button" value="Search">
+    </section>
+    <section class="search">
+      <h2>Search</h2>
+      <p><span>All Tour Operators</span></p>
+      <p>Destination</p>
+      <select name = "Destination" title="Destination">
+        <option value = "1">Any destination</option>
+      </select>
+      <p>Departing</p>
+      <select name = "Departing" title="Departing">
+        <option value = "1">Any departing</option>
+      </select>
+      <p>Price</p>
+      <select name = "Price" title="Price">
+        <option value = "1">Any price</option>
+      </select>
+      <p>Duration</p>
+      <select name = "Duration" title="Duration">
+        <option value = "1">Any duration</option>
+      </select>
+      <textarea name = "comments" placeholder="Browse by Tour Operator"></textarea>
+      <input type="button" value="Search">
+    </section>
+  </aside>
+</section>
+
 <footer class="footer">
   <div class="list">
     <div class="wrap">
@@ -98,6 +192,9 @@
   </div>
   <p>Journey © 2013 | Privacy Policy | Website designed by TemplateMonster.com</p>
 </div>
+
+<a class="button-top" href="#" ></a>
+
 </body>
 </html>
 
