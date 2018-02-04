@@ -38,7 +38,7 @@ header {
 }
 
 .menu__item {
-  padding: 20px 16px 20px 16px;
+  padding: 20px 16px;
 }
 
 .menu__logo {
@@ -105,7 +105,7 @@ header {
 }
 
 .submenu {
-  display: none;
+  /*display: none;*/
   position: absolute;
   top: 125px;
   right: 94px;
@@ -114,6 +114,8 @@ header {
   font-size: 20px;
   text-align: center;
   color: #536286;
+  transition: all 1s;
+  transform: scale(0,0);
 }
 
 .submenu__item > a {
@@ -125,9 +127,10 @@ header {
 }
 
 .menu__item:hover>.submenu {
-  display: block;
+  /*display: block;*/
   background: #fff;
   border-radius: 4px;
+  transform: scale(1,1);
 }
 
 .menu__item:hover>.submenu:before {
